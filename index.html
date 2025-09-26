@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        .lobster-regular {
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar with Banner -->
+    <div
+        class="md:bg-[url(/images/bg.png)] bg-[url(/images/bg-mobile.png)] md:h-[982px] h-[844px] w-full bg-no-repeat bg-cover bg-center">
+        <!-- Navbar Parent -->
+        <div class="flex justify-between items-center md:px-[111px] px-[20px] md:py-8 py-5">
+            <!-- Logo Section -->
+            <div>
+                <img class="w-32 h-14" src="/images/Frame 1.png" alt="">
+            </div>
+
+            <!-- Link Sections -->
+            <div class="hidden md:block">
+                <ul class="flex text-white gap-10 text-xl">
+                    <li>
+                        <a class="text-[#F39C11] font-bold" href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">Our Menu</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- icon section -->
+            <div class="flex gap-4 justify-center items-center">
+                <div class="bg-[#FFFFFF] opacity-30 h-10 w-10 rounded-full flex justify-center items-center">
+                    <img class="h-6 w-6" src="/images/icons8-customer-100.png" alt="">
+                </div>
+                <div class="bg-[#FFFFFF] opacity-30 h-10 w-10 rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-user text-2xl text-black"></i>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center md:mt-20 mt-10">
+            <h1 class="md:text-8xl text-4xl lobster-regular text-white text-center">Relax & Enjoy Your Coffee</h1>
+        </div>
+    </div>
+
+    <!-- about us section -->
+    <div
+        class="flex md:flex-row flex-col justify-between items-center md:gap-32 gap-16 py-24 md:px-[111px] px-[20px] bg-[#FFF4D8]">
+        <!-- text div -->
+        <div class="md:w-[650px] w-auto space-y-8">
+            <h1 class="text-5xl text-center md:text-start lobster-regular">About Us</h1>
+            <div class="hidden md:block">
+                <p class="text-[20px] leading-relaxed">Our coffee bar uses only Ethiopian coffee. All commercially
+                    produced
+                    coffee originates from Ethiopia. We love Ethiopia for providing the world with coffee to grow, and
+                    we
+                    continue to love the flavor of that country’s coffee. The fruity acidity of this single origin
+                    coffee is
+                    balanced by its sweet honey notes, creating soft, light notes with a light character.</p>
+                <button class="bg-[#F39C11] px-8 py-3 rounded-2xl">Learn More</button>
+            </div>
+            <div class="md:w-[643px] w-auto flex justify-center items-center md:hidden">
+                <img src="/images/logo 2 1.png" alt="">
+            </div>
+        </div>
+
+        <!-- image div -->
+        <div class="md:w-[643px] w-auto flex justify-center items-center">
+            <img class="hidden md:block" src="/images/logo 2 1.png" alt="">
+            <div class="block md:hidden space-y-8">
+                <p class="text-[20px] leading-relaxed">Our coffee bar uses only Ethiopian coffee. All commercially
+                    produced
+                    coffee originates from Ethiopia. We love Ethiopia for providing the world with coffee to grow, and
+                    we
+                    continue to love the flavor of that country’s coffee. The fruity acidity of this single origin
+                    coffee is
+                    balanced by its sweet honey notes, creating soft, light notes with a light character.</p>
+                <button class="bg-[#F39C11] px-8 py-3 rounded-2xl">Learn More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
